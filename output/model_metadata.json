@@ -1,0 +1,23 @@
+{
+  "selected_model": "hist_quote",
+  "december_model": "hist_core",
+  "seed": 42,
+  "selection_rule": "Lowest July-August MAE among four trained candidates; core-only chart selected separately.",
+  "split_rows": {
+    "Jan_Jun_train": 28806,
+    "Jul_Aug_selection": 9671,
+    "Jan_Aug_refit": 38477,
+    "Sep_Oct_test": 9523,
+    "final_refit": 48000
+  },
+  "versions": {
+    "python": "3.12.2",
+    "numpy": "2.2.6",
+    "pandas": "2.3.2",
+    "scikit-learn": "1.7.2"
+  },
+  "december_range": [
+    804.06,
+    834.9
+  ]
+}

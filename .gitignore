@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.joblib
+*.pdf
+*.docx
+*.zip
+tmp/
+local-deliverables/
+output/*
+!output/validation_predictions.csv
+!output/december_predictions.csv
+!output/metrics.csv
+!output/model_metadata.json
+!output/scorer_results/
+output/scorer_results/*
+!output/scorer_results/candidate_december.png
